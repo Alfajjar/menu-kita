@@ -145,6 +145,9 @@ button:focus {
     border-radius: 100%;
     cursor: pointer;
 }
+.content .menu-content .menu-card .card-item .button a,svg {
+    color: #000;
+}
 
 .content .menu-content .menu-card .card-item .button:hover {
     border: none;
@@ -554,7 +557,7 @@ img{
     text-transform: capitalize;
     font-weight: 700;
     position: relative;
-    color: #12263a;
+    color: var(--font-heading);
     margin: 1rem 0;
 }
 .product-title::after{
@@ -622,7 +625,7 @@ img{
     border: 1.5px solid #ddd;
     border-radius: 25px;
     text-align: center;
-    padding: 0.45rem 0.8rem;
+    padding: 0.8rem 1rem;
     outline: 0;
     margin-right: 0.2rem;
     margin-bottom: 1rem;
@@ -635,13 +638,13 @@ img{
     color: #fff;
 }
 .purchase-info .btn:first-of-type{
-    background: #256eff;
+    background:var(--font-heading);
 }
 .purchase-info .btn:last-of-type{
-    background: #f64749;
+    background: var(--white);
 }
 .purchase-info .btn:hover{
-    opacity: 0.9;
+    opacity: 0.7;
 }
 .social-links{
     display: flex;
